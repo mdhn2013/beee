@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/VeaMSRZK"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/mdhn2013/gui/refs/heads/main/VeaMSRZK.txt"))()
 wait(1)
 OrionLib:MakeNotification({
                     Name = "mspaint V3修复",
