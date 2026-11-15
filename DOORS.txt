@@ -1,4 +1,22 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/mdhn2013/gui/main/ui.txt"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/mdhn2013/gui/main/ui.txt"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "测试 UI",
+    HidePremium = false
+})
+
+local Tab = Window:MakeTab({
+    Name = "主页"
+})
+
+Tab:AddButton({
+    Name = "点我",
+    Callback = function()
+        print("按钮生效了！")
+    end
+})
+
 wait(1)
 OrionLib:MakeNotification({
                     Name = "mspaint V3修复",
